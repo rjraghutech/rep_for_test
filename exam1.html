@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment1</title>
+    <style>
+        form{
+            border: 2px solid balck;
+        }
+    </style>
 </head>
 <body>
     <h2>Cricket in India</h2>
@@ -146,5 +151,33 @@
     </table>
     <br>
     <p>This table has been taken from from cricket website: <a href="https://aircampus.in/">click here</a> to visit</p>
+    <br>
+    <p>I am criket guru btw, if you want to know something, you can contact me.</p>
+    <form action="backend.js">
+        <lab>Full Name:</lab><br>
+        <input type="text" name="name" id="name"><br>
+        <lab>Email:</lab><br>
+        <input type="text" name="email" id="email"><br>
+        <lab>Phone Number:</lab><br>
+        <input type="number" name="phone" id="phone"><br>
+        <lab>Password:</lab><br>
+        <input type="password" name="password" id="password"><br>
+        <lab>Confirm Password:</lab><br>
+        <input type="password" name="password" id="password"><br>
+        <lab>Select Your Gender:</lab><br>
+
+        <input type="radio" name="gender" id="male">Male<br>
+        <input type="radio" name="gender" id="female">Female <br>
+        <input type="radio" name="gender" id="others">Others <br>
+        <lab>Select your favourite player:</lab><br>
+        <select name="player" id="player">
+            <option value="player">Virat kholi</option>
+            <option value="player">M S Dhoni</option>
+            <option value="player">Hardik Pandey</option>
+        </select><br>
+        <lab>Address</lab><br>
+        <textarea name="address" id="address" cols=20" rows="5"></textarea><br>
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>
